@@ -14,7 +14,8 @@
       "list-context.product-list",
       "stack-layout#cta",
       "rich-text#3",
-      "ladeira.countdown:countdown"
+      "ladeira.countdown:countdown",
+      "countdown.title"
     ]
   },
   "rich-text#1": {
