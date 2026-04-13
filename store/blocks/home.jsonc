@@ -1,17 +1,28 @@
 {
   "store.home": {
     "blocks": [
+      "rich-text#1",
       "slider-layout#home",
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
+      "rich-text#2",
       "tab-layout#home",
       "modal-trigger#first",
       "list-context.product-list",
-      "stack-layout#cta"
+      "stack-layout#cta",
+      "rich-text#3",
+      "ladeira.countdown:countdown"
     ]
+  },
+  "rich-text#1": {
+    "props": {
+      "text": "# Introdução aos Blocos Básicos do Store Framework",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
   },
   "info-card#button-right": {
     "props": {
@@ -115,6 +126,13 @@
       },
       "alt": "Coffee Makers Collection",
       "maxWidth": "100%"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "# Criando Layouts Avançados com Blocos de Composição",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "tab-layout#home": {
@@ -253,6 +271,13 @@
       },
       "href": "/washer",
       "label": "Check these awesome discounts"
+    }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "# Desenvolvendo Blocos Personalizados no VTEX IO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   }
 }
