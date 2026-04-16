@@ -1,8 +1,7 @@
 {
     "store.custom#about-us": {
         "blocks": [
-            "flex-layout.row#about-us"
-        ]
+            "flex-layout.row#about-us"        ]
     },
     "flex-layout.row#about-us": {
         "children": [
@@ -26,7 +25,7 @@
     },
     "rich-text#about-content": {
         "props": {
-            "text": " This is the VTEX Minimum Theme, you can use it to test blocks usage and build your first store from scratch."
+            "text": "### _This is VTEX Minimum Theme_ \n"
         }
     },
     "image#about-us": {
