@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.container .heading--guide4, .container .heading--guide3, .container .heading--guide2, .container .heading--guide1 {
+  display: flex;
+  padding: 100px;
+}
+
+.heading--guide1, .heading--guide2, .heading--guide3, .heading--guide4 {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 0px 1px;
+}

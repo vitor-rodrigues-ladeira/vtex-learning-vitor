@@ -1,28 +1,32 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#1",
+      "rich-text#guide1",
       "slider-layout#home",
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
-      "rich-text#2",
+      "rich-text#guide2",
       "tab-layout#home",
       "modal-trigger#first",
       "list-context.product-list",
       "stack-layout#cta",
-      "rich-text#3",
+      "rich-text#guide3",
       "ladeira.countdown:countdown",
-      "countdown.title"
+      "countdown.title",
+      "rich-text#guide4",
+      "info-card#clearance",
+      "info-card#vintage"
     ]
   },
-  "rich-text#1": {
+  "rich-text#guide1": {
     "props": {
       "text": "# Introdução aos Blocos Básicos do Store Framework",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "guide1"
     }
   },
   "info-card#button-right": {
@@ -129,11 +133,12 @@
       "maxWidth": "100%"
     }
   },
-  "rich-text#2": {
+  "rich-text#guide2": {
     "props": {
       "text": "# Criando Layouts Avançados com Blocos de Composição",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "guide2"
     }
   },
   "tab-layout#home": {
@@ -274,11 +279,46 @@
       "label": "Check these awesome discounts"
     }
   },
-  "rich-text#3": {
+  "rich-text#guide3": {
     "props": {
       "text": "# Desenvolvendo Blocos Personalizados no VTEX IO",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "guide3"
+    }
+  },
+  "info-card#clearance": {
+    "props": {
+      "id": "info-card-clearance",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass": "clearance"
+    }
+  },
+  "info-card#vintage": {
+    "props": {
+      "id": "info-card-vintage",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass": "vintage"
+    }
+  },
+  "rich-text#guide4": {
+    "props": {
+      "text": "# Customizando sua loja para criar uma experiência única para o usuário final",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "guide4"
     }
   }
 }
