@@ -1,0 +1,30 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://i.ytimg.com/vi/ucRulNQsuYQ/maxresdefault.jpg",
+      "alt": "Banner da landing page"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Camera",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop"
+    ]
+  }
+}

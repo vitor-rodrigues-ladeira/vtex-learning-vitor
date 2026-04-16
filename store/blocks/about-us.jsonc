@@ -1,7 +1,8 @@
 {
     "store.custom#about-us": {
         "blocks": [
-            "flex-layout.row#about-us"        ]
+            "flex-layout.row#about-us"
+        ]
     },
     "flex-layout.row#about-us": {
         "children": [
@@ -12,7 +13,8 @@
     "flex-layout.col#text-about-us": {
         "children": [
             "rich-text#about-title",
-            "rich-text#about-content"
+            "rich-text#about-content1",
+            "rich-text#about-content2"
         ],
         "props": {
             "preventVerticalStretch": true
@@ -23,9 +25,14 @@
             "text": "# About Minimum Theme"
         }
     },
-    "rich-text#about-content": {
+    "rich-text#about-content1": {
         "props": {
-            "text": "### _This is VTEX Minimum Theme_ \n"
+            "text": "### Our history \n This store was created to be used on **VTEX Training Week BRA**. You can click [here](https://vtex.com/pt-BR/training/) to know more about the courses!"
+        }
+    },
+    "rich-text#about-content2": {
+        "props": {
+            "text": "### This is VTEX Minimum Theme \n You can use it to test blocks usage and build your first store from scratch."
         }
     },
     "image#about-us": {
