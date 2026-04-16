@@ -1,9 +1,11 @@
+// store/blocks/home/home.jsonc
 {
   "store.home": {
     "blocks": [
       "flex-layout.row#slider",
       "shelf#new-arrivals",
       "shelf#clearance",
+      "__fold__",
       "flex-layout.row#newsletter",
       "rich-text#brands",
       "flex-layout.row#brands",
@@ -35,9 +37,7 @@
   },
 
   "flex-layout.row#brands": {
-    "children": [
-      "slider-layout#brands"
-    ],
+    "children": ["slider-layout#brands"],
     "props": {
       "marginTop": 4,
       "marginBottom": 8
@@ -49,7 +49,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "never",
-      "collection": "139",
+      "collection": "539",
       "productList": {
         "maxItems": 9,
         "itemsPerPage": 3,
@@ -65,7 +65,7 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "collection": "140",
+      "collection": "542",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 9,
